@@ -8,9 +8,9 @@ Run the following commands in your terminal.
 git clone https://github.com/jr00n/dotfiles.git ~/dotfiles
 git clone --recursive https://github.com/sorin-ionescu/prezto.git ~/.zprezto
 
-ln -s dotfiles/zshrc .zshrc
-ln -s dotfiles/zpreztorc .zpreztorc
-ln -s dotfiles/git/gitconfig .gitconfig
+ln -s dotfiles/zshrc ~/.zshrc
+ln -s dotfiles/zpreztorc ~/.zpreztorc
+ln -s dotfiles/git/gitconfig ~/.gitconfig
 
 brew install fasd
 brew install coreutils
