@@ -1,0 +1,18 @@
+#
+# Sets Prezto options.
+#
+# Authors:
+#   Jeroen Wolff <jeroen.wolff@gmail.com>
+#
+zstyle ':prezto:*:*' color 'yes'
+zstyle ':prezto:load' pmodule \
+  'directory' \
+  'history' \
+  'utility' \
+  'completion' \
+  'git' \
+  'prompt' \
+  'syntax-highlighting' \
+  'history-substring-search'
+zstyle ':prezto:module:editor' key-bindings 'vi'
+zstyle ':prezto:module:prompt' theme 'sorin'
