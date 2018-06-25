@@ -1,1 +1,1 @@
-eval $(minishift oc-env)
+#eval $(minishift oc-env)
