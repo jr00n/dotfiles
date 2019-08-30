@@ -13,6 +13,9 @@ ln -s dotfiles/zpreztorc ~/.zpreztorc
 ln -s dotfiles/git/gitconfig ~/.gitconfig
 
 brew install zsh zsh-completions
+
+sudo dscl . -create /Users/[username] UserShell /usr/local/bin/zsh
+
 brew install fasd
 brew install coreutils
 ```
