@@ -12,10 +12,11 @@ ln -s dotfiles/zshrc ~/.zshrc
 ln -s dotfiles/zpreztorc ~/.zpreztorc
 ln -s dotfiles/git/gitconfig ~/.gitconfig
 
+brew install zsh zsh-completions
 brew install fasd
 brew install coreutils
 ```
 After installing, open a new terminal window to see the effects.
 
 ## iTerm
-My favorite color theme is Solarized Dark and the Inconsolated XL font.
+My favorite color theme is Solarized Dark and the Inconsolata XL font.https://github.com/backus/yadr/blob/master/fonts/Inconsolata%20XL.otf
