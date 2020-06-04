@@ -86,3 +86,9 @@ alias gdmb='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 
 # Homebrew
 alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
+
+# Maven
+alias mvnb='mvn -s ~/.m2/bcao-settings.xml'
+
+# Midnight Commander
+alias mc='mc . .'
