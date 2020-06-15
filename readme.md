@@ -12,12 +12,19 @@ ln -s dotfiles/zshrc ~/.zshrc
 ln -s dotfiles/zpreztorc ~/.zpreztorc
 ln -s dotfiles/git/gitconfig ~/.gitconfig
 
+ln -s dotfiles/p10k.zsh ~/.p10k.zsh
+
 brew install zsh zsh-completions
 
 sudo dscl . -create /Users/[username] UserShell /usr/local/bin/zsh
 
 brew install fasd
 brew install coreutils
+
+for powerlevel10k prompt:
+Add zstyle :prezto:module:prompt theme powerlevel10k to ~/.zpreztorc.
+(default allready done)
+
 ```
 After installing, open a new terminal window to see the effects.
 
