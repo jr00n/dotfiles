@@ -16,4 +16,5 @@ zstyle ':prezto:load' pmodule \
   'history-substring-search'
 zstyle ':prezto:module:editor' key-bindings 'vi'
 #zstyle ':prezto:module:prompt' theme 'sorin'
-zstyle ':prezto:module:prompt' theme 'minimal'
+#zstyle ':prezto:module:prompt' theme 'minimal'
+zstyle ':prezto:module:prompt' theme 'powerlevel10k'

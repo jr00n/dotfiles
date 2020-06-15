@@ -92,3 +92,6 @@ alias mvnb='mvn -s ~/.m2/bcao-settings.xml'
 
 # Midnight Commander
 alias mc='mc . .'
+
+#Visual Code Studio
+alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
