@@ -29,4 +29,4 @@ Add zstyle :prezto:module:prompt theme powerlevel10k to ~/.zpreztorc.
 After installing, open a new terminal window to see the effects.
 
 ## iTerm
-My favorite color theme is Solarized Dark and the Inconsolata XL font.https://github.com/backus/yadr/blob/master/fonts/Inconsolata%20XL.otf
+My favorite color theme is Solarized Dark and the Meslo LG M Regular Nerd Font
