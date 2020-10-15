@@ -31,3 +31,6 @@ After installing, open a new terminal window to see the effects.
 ## iTerm
 My favorite color theme is ENCOM https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/ENCOM.itermcolors
 and the Meslo LG M Regular Nerd Font
+
+## Java 
+For multiple JDK's on OSX I use https://github.com/shyiko/jabba
