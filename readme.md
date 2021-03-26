@@ -16,7 +16,7 @@ ln -s dotfiles/p10k.zsh ~/.p10k.zsh
 
 brew install zsh zsh-completions
 
-sudo dscl . -create /Users/[username] UserShell /usr/local/bin/zsh
+sudo dscl . -create /Users/[username] UserShell /opt/homebrew/bin/zsh
 
 brew install fasd
 brew install coreutils
